@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+}
+
+.logo-container {
+  height: 100px;
+  padding: 20px;
+}
+
+.signup-container {
+
+}
+
+.signup-error {
+  height: 65px;
+}
+
+.signup-error p {
+  font-size: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.form-group {
+  display: flex;
+  margin-top: 10px;
+}
+
+input.form-control {
+    width: 40%;
+    display: inline-block;
+    margin-right: 10px;
+    float: right;
+}
+
+button.btn.btn-default.btn-primary {
+    float: left;
+}
+
+.photo-container {
+  position: relative;
+
+}
+
+.photo-container img {
+  width: 200px;
+  height: 200px;
+}
+
+.photo-container .photo-hot {
+  width: 20px;
+  height: 20px;
+}
+
+.single-photo .photo-delete {
+  display: none;
+}
+
+.button-plus {
+  background-color: #5DD39E;
+  box-shadow: 0 4px 12px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.button-minus {
+  background-color: red;
+  box-shadow: 0 4px 12px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding-bottom: 2px;
+}
